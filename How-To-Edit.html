@@ -1,0 +1,54 @@
+<!--
+title: Editing Tips
+description: 
+published: true
+date: 2023-09-14T00:35:59.393Z
+tags: 
+editor: code
+dateCreated: 2023-09-14T00:27:49.678Z
+-->
+
+<h1>Editing The Wiki: Tips And Tricks.</h1>
+<p>&nbsp;</p>
+<p>So you want to help contribute to the wiki? Great. Here are a few things to help you.</p>
+<p>&nbsp;</p>
+<ol>
+  <li>Create an account. You can either sign up with your email or use Discord to sign in.</li>
+  <li>The prefered editor when creating a new page is the <strong>Visual editor</strong>. The exception is if the page need spoiler tags for any patreon pages. If so see instructions below for how to do spoilers.&nbsp;</li>
+  <li>Chapters can be linked by highlighting the text, Clicking Insert Link To Page on the top bar and navigation to the redirects folder. <a href="/redirects/ch12">Ch12</a> for example.</li>
+  <li>Spoilers should be left up until at least 5 days after the chapter hits Royal Road.</li>
+  <li>Please use the tag system.</li>
+</ol>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<h2>How to do Spoilers</h2>
+<p>Spoilers are only currently doable in the raw HTML editor.</p>
+<p>Tag all spoilers with a tag of the format "ch.35 spoilers" replacing 35 with the correct chapter number</p>
+<p>Do all your normal editing as normal using the visual editor.</p>
+<p>Then when you are done save the page, then click the page actions button on the top right of the page &gt; Convert &gt; Raw HTML</p>
+<p>Look for the text you want to spoiler. Grab it including the &lt;p&gt; tag preceding it and including the &lt;\p&gt; following it.</p>
+<p>&nbsp;</p>
+<p>Then put it in a block like this.</p>
+<pre><code class="language-html">&lt;details&gt;&lt;summary&gt;Description&lt;/summary&gt;
+Text to be spoiled goes here
+&lt;/details&gt;</code></pre>
+<p>&nbsp;</p>
+
+<details><summary>An example:</summary>
+<p>Spoilers are only currently doable in the raw HTML editor.</p>
+<p>Tag all spoilers with a tag of the format "ch.35 spoilers" replacing 35 with the correct chapter number</p>
+<p>Do all your normal editing as normal using the visual editor.</p>
+<p>Then when you are done save the page, then click the page actions button on the top right of the page &gt; Convert &gt; Raw HTML</p>
+<p>Look for the text you want to spoiler. Grab it including the &lt;p&gt; tage preceding it and including the &lt;\p&gt; following it.</p>
+</details>
+
+<p>You can see the highlighted text that I have copied down into the Details block.</p>
+<p>Note that I included the &lt;p&gt; and &lt;\p&gt; tags as well</p>
+<p>You can also include url's this way as well. Just copy from &lt;a&gt; to &lt;\a&gt;</p>
+<p>&nbsp;</p>
+<figure class="image"><img src="/spoil.png"></figure>
+
+
+
+
+
